@@ -1,0 +1,177 @@
+#brand-sidebar {
+  height: 100%;
+  background: #f6f6f6;
+  padding: 40px;
+  left: 0;
+  font-family: 'PT Sans';
+  font-weight: bold;
+  color: #000;
+  position: fixed;
+  width: inherit;
+}
+#brand-sidebar .title {
+  font-size: 30px;
+  margin-top: 20%;
+  text-align: right;
+  font-weight: 700;
+}
+#brand-sidebar .misc {
+  margin: 20px 0;
+}
+#brand-sidebar .misc a {
+  margin-right: 10px;
+  font-size: 12px;
+  color: #929292;
+  text-decoration: none;
+}
+#brand-sidebar .misc a.follow {
+  padding: 3px 14px;
+  margin-left: 25%;
+  color: #000;
+  border: 1px solid #000;
+  transition: all 0.5s ease;
+}
+#brand-sidebar .misc a.follow:hover {
+  color: #fff;
+  background-color: #000;
+}
+#brand-sidebar .brand-info {
+  font-size: 14px;
+  padding: 20px 0;
+  font-weight: lighter;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+  text-align: left;
+  color: #646464;
+}
+#brand-sidebar .brand-menu {
+  padding-top: 40px;
+}
+#brand-sidebar .brand-menu ul {
+  list-style-type: none;
+  text-align: right;
+  margin-right: -40px;
+}
+#brand-sidebar .brand-menu ul li {
+  padding: 8px 0;
+  padding-right: 40px;
+  background: url("/images/icons-100.png") -60px center no-repeat transparent;
+  transition: all 4s ease-in 0s;
+}
+#brand-sidebar .brand-menu ul li.active {
+  background: url("/images/icons-100.png") right center no-repeat transparent;
+}
+#brand-sidebar .brand-menu ul li.active a {
+  color: #000;
+}
+#brand-sidebar .brand-menu ul li a {
+  color: #929292;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 10px 0;
+  text-decoration: none;
+}
+#brand-sidebar .brand-menu ul li a:hover {
+  color: #000;
+}
+#brand-sidebar .brand-menu ul li >ul {
+  position: absolute;
+  width: 63%;
+  margin-top: -13%;
+  left: 0;
+}
+#brand-sidebar .brand-menu ul li >ul li {
+  padding: 6% 0;
+  display: inline-block;
+  margin-right: 10%;
+}
+#brand-sidebar .brand-menu ul li >ul li:first-child {
+  margin-right: 13%;
+}
+#brand-sidebar .brand-menu .product-tab {
+  width: 250px;
+}
+#brand-sidebar .brand-menu .product-tab li {
+  float: left;
+  transition: none;
+}
+#brand-sidebar .brand-menu .product-tab li.all.onshow {
+  background: url("/images/shape.png") center center no-repeat;
+}
+#brand-sidebar .brand-menu .product-tab li.featured.onshow {
+  background: url("/images/shape.png") 72% center no-repeat;
+}
+@media (max-width: 991px) {
+  #brand-sidebar {
+    position: relative;
+    top: 45px;
+    padding: 15px;
+    padding-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    width: auto;
+  }
+  #brand-sidebar .title {
+    font-size: 30px;
+    margin-top: 1%;
+    text-align: left;
+  }
+  #brand-sidebar .misc a.follow {
+    padding: 7px 10px;
+    margin-left: 1%;
+    color: #000;
+    border: 1px solid #000;
+  }
+  #brand-sidebar .brand-menu {
+    padding-top: 10px;
+  }
+  #brand-sidebar .brand-menu ul {
+    text-align: left;
+    height: 100px;
+  }
+  #brand-sidebar .brand-menu ul li {
+    float: left;
+    padding: 0;
+    padding-left: 10px;
+    background: transparent;
+  }
+  #brand-sidebar .brand-menu ul li.active {
+    background: transparent;
+  }
+  #brand-sidebar .brand-menu ul li.active a {
+    background: url("/images/icons-100.png") 1px bottom repeat-x transparent;
+  }
+  #brand-sidebar .brand-menu ul li a {
+    padding: 10px 0;
+  }
+  #brand-sidebar .brand-menu ul li >ul {
+    position: static;
+    width: 70px;
+    margin-top: 1%;
+    left: 0;
+    height: auto;
+  }
+  #brand-sidebar .brand-menu ul li >ul li {
+    padding: 0;
+    display: inline-block;
+    margin-right: 0;
+  }
+  #brand-sidebar .brand-menu ul li >ul li:first-child {
+    margin-right: 0;
+  }
+  #brand-sidebar .brand-menu .product-tab {
+    width: 250px;
+    margin-top: -50px;
+  }
+  #brand-sidebar .brand-menu .product-tab li {
+    float: left;
+    padding-right: 10px;
+    transition: none;
+  }
+  #brand-sidebar .brand-menu .product-tab li.all.onshow {
+    background: url("/images/shape.png") 36px center no-repeat;
+  }
+  #brand-sidebar .brand-menu .product-tab li.featured.onshow {
+    background-position: 92px center;
+  }
+}
