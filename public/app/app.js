@@ -6,6 +6,10 @@ alt
 	$routeProvider
 	.when('/', { templateUrl: '/pages/index' })
 	.when('/brand/products', { templateUrl: '/pages/brand-products' })
+	.when('/vip-recentNews', { templateUrl: '/pages/vip-recentNews' })
+	.when('/vip-myConnections', { templateUrl: '/pages/vip-myConnections' })
+	.when('/vip-profileDetail', { templateUrl: '/pages/vip-profileDetail' })
+	.when('/vip-otherMemberProfile', { templateUrl: '/pages/vip-otherMemberProfile' })
 	.when('/brand/:chapter', { templateUrl: '/pages/brand-chapter' })
 	.when('/search', { templateUrl: '/pages/search' })
 	.when('/search/:section', { templateUrl: '/pages/search-section' });

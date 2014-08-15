@@ -1,0 +1,29 @@
+#vip-recent-news-content
+  .row
+    .col-lg-6
+      .btn-group
+        button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')
+          | All updates 
+          span.caret
+        ul.dropdown-menu(role='menu')
+          li
+            a(href='#') Action
+    .col-lg-6
+      .form-group
+        .col-lg-2.pull-right
+          input.form-control(type='text', placeholder='Search')
+  .updates
+    .row.media
+      .col-lg-12
+        a.pull-left(href='#')
+          img.media-object(src='...', alt='...')
+        .media-body
+          h4.media-heading
+            | Minne has a new connection
+          h4.media-duration.pull-right
+            | 1 day ago
+          .media
+            a.pull-left(href='#')
+              img.media-object(src='...', alt='...')
+            .media-body
+              h4.media-heading Kristine
