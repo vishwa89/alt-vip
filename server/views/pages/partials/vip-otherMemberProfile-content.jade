@@ -1,38 +1,51 @@
-#vip-otherMemberProfile-content
+#vipOtherMemberProfileContent
   .row
     .col-lg-8
       .media
-        a.pull-rightleft(href='#')
-          img.media-object(src='...', alt='...')
+        a.pull-left(href='#')
+          img.media-object(ng-src='/images/thumnail1.jpg')
         .media-body
-          h4.media-heading
-            | Kristin
+          h4.heading
+            | Kristine
+          p.role
+            |freelance photographer
+          p.title
+            |photographer
     
     .col-lg-4.recent-news
       a.pull-right
-        | recent news
+        | Back to recent news
   .row
-    .col-lg-10.about-yourself
+    .col-lg-10.about
       p
         | hellos hi hello hi held ejdd djdjd djdlaj asdi asdk asdhk asd kasdk jadk 
     .col-lg-2.connection-info
       p
-        | 27 connections
-    .updates
-      .row.update-info
-        .col-lg-6.title
-          p
-            | loved 8 products
-        .col-lg-6.time
-          p.pull-right
-            | 2 days ago
-      .row.media
-        .col-lg-12
+        span 27 
+        | connections
+      p
+        | there are 9 designers and 5 buyers
+  .row.lists
+    p
+      | lovely friends in common
+    
+    .row
+      ul
+        li
           a.pull-left(href='#')
-            img.media-object(src='...', alt='...')
+            img.media-object(ng-src='/images/thumnail1.jpg')
           .media-body
-            h4.media-heading
-              | Minne has a new connection			
+            h4.media-heading.name Kristine
+            p.role Photographer
+        li
+          a.pull-left(href='#')
+            img.media-object(ng-src='/images/thumnail1.jpg')
+          .media-body
+            h4.media-heading.name Kristine
+            p.role Photographer     
+          
+
+
   .row
     .col-lg-12.alert-msg
       p

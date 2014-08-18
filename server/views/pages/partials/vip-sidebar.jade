@@ -1,28 +1,46 @@
-#vip-recent-news-sidebar
-    .profile-info
-        .row
-          .col-lg-4.profile-pic
-            img
-            button edit
-          .col-lg-8.profile-details
-            h3 Zhe Wang
-            p Founder at alovelything.com
-            p Buyer
-            p 27 connections
-        .row.about-you
-          .col-lg-12
-            p
-              | lakjsdlksj djasj djlkajs kldjlk sj dlkjal ksd jlks ajdlk lksajl dkjals jdlkjs alkdj lksaj ldjl sakj dlkjs alkjdl kasjl kdjlk sajdlk jsaf nnd,fn ljad fl
+#vipSidebar
+  .profile
+    .row.info
+      .col-lg-4.pic
+        img.img-responsive(ng-src="/images/thumnail1.jpg")
+        button(ng-show="isVip && ownProfile || isAdmin") edit
+      .col-lg-8.details
+        h3.name Zhe Wang
+        p.intro Founder at alovelything.com
+        p.role Buyer
+        p.connections 
+          span.count 27 
+          span.text connections
+    .row.about
+      p
+        | lakjsdlksj djasj djlkajs kldjlk sj dlkjal ksd jlks ajdlk lksajl dkjals jdlkjs alkdj lksaj ldjl sakj dlkjs alkjdl kasjl kdjlk sajdlk jsaf nnd,fn ljad fl
 
-  .carousel-title You may also know
-  #vipCarousel.carousel.slide
+  .carousel
+    .title You may also know
+    #vipCarousel.slide
       .carousel-inner
         .item.active
           ul
             li
-        .item
-          ul
+              a
+                img(ng-src="/images/thumnail1.jpg")
+              h3.name Kristina
+              p.role Photographer  
             li
+              a
+                img(ng-src="/images/thumnail2.jpg")
+              h3.name Kristina
+              p.role Photographer
+            li
+              a
+                img(ng-src="/images/thumnail3.jpg")
+              h3.name Kristina
+              p.role Photographer
+            li
+              a
+                img(ng-src="/images/thumnail4.jpg")
+              h3.name Kristina
+              p.role Photographer
       a.left.carousel-control(href='#vipCarousel', role='button', data-slide='prev')
         span.glyphicon.glyphicon-chevron-left
       a.right.carousel-control(href='#vipCarousel', role='button', data-slide='next')
