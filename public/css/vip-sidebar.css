@@ -1,0 +1,103 @@
+#vipSidebar {
+  background: #f6f6f6;
+  padding: 20px;
+}
+#vipSidebar .info {
+  height: 120px;
+}
+#vipSidebar .info .details {
+  font-color: #000;
+}
+#vipSidebar .info .details .name {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+#vipSidebar .info .details .intro {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+#vipSidebar .info .details .role {
+  color: #646464;
+}
+#vipSidebar .info .details .connections .count {
+  font-weight: 600;
+}
+#vipSidebar .info .details .connections a {
+  color: #646464;
+  text-decoration: underline;
+}
+#vipSidebar .info .headshot button {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #666;
+  text-align: center;
+  font-size: 12px;
+  padding: 2px;
+  padding-top: 5px;
+  padding-left: 0;
+  width: 80px;
+  height: 25px;
+  border-radius: 2px;
+  font-weight: 600;
+  border: 0;
+  background-color: #d1d1d1;
+}
+#vipSidebar .about {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  font-size: 16px;
+  color: #646464;
+  border-top: 2px solid #646464;
+}
+#vipSidebar .recommend {
+  margin-bottom: 70px;
+}
+#vipSidebar .recommend h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+#vipSidebar .recommend .name {
+  display: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+#vipSidebar .recommend .role {
+  display: none;
+  font-size: 10px;
+  color: #646464;
+  margin-bottom: 0;
+}
+#vipSidebar .recommend .carousel-control {
+  width: 0;
+  color: #000;
+}
+#vipSidebar .recommend .carousel-control.left,
+#vipSidebar .recommend .carousel-control.right {
+  background-image: none;
+}
+#vipSidebar .recommend .carousel-control.left.left,
+#vipSidebar .recommend .carousel-control.right.left {
+  left: -26px;
+}
+#vipSidebar .recommend .carousel-control.left.right,
+#vipSidebar .recommend .carousel-control.right.right {
+  right: -20px;
+}
+#vipSidebar .recommend .carousel-control .glyphicon-chevron-left,
+#vipSidebar .recommend .carousel-control .icon-prev,
+#vipSidebar .recommend .carousel-control .glyphicon-chevron-right {
+  font-size: 19px;
+  top: 36px;
+}
+#vipSidebar .recommend .carousel-control .glyphicon-chevron-left {
+  margin-left: 0;
+  left: -62%;
+}
+#vipSidebar .recommend .carousel-control .glyphicon-chevron-right {
+  margin-right: 0;
+  right: -50%;
+}

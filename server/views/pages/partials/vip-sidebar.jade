@@ -1,48 +1,69 @@
 #vipSidebar
   .profile
-    .row.info
-      .col-lg-4.pic
+    .info
+      .col-lg-4.headshot
         img.img-responsive(ng-src="/images/thumnail1.jpg")
-        button(ng-show="isVip && ownProfile || isAdmin") edit
+        button Edit
       .col-lg-8.details
         h3.name Zhe Wang
         p.intro Founder at alovelything.com
         p.role Buyer
         p.connections 
           span.count 27 
-          span.text connections
-    .row.about
-      p
-        | lakjsdlksj djasj djlkajs kldjlk sj dlkjal ksd jlks ajdlk lksajl dkjals jdlkjs alkdj lksaj ldjl sakj dlkjs alkjdl kasjl kdjlk sajdlk jsaf nnd,fn ljad fl
+          a(href="/vip/connections").connections Connections
+    .about
+      p I am a designer, fashion photographer. em Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
-  .carousel
-    .title You may also know
-    #vipCarousel.slide
+  .recommend
+    h3 You may also know
+    #carousel.carousel.slide(data-ride="carousel")
       .carousel-inner
         .item.active
-          ul
-            li
+          ul.list-inline
+            li.col-lg-3
               a
-                img(ng-src="/images/thumnail1.jpg")
-              h3.name Kristina
+                img.img-responsive(ng-src="/images/thumnail1.jpg")
+              h4.name Kristina
               p.role Photographer  
-            li
+            li.col-lg-3
               a
-                img(ng-src="/images/thumnail2.jpg")
-              h3.name Kristina
+                img.img-responsive(ng-src="/images/thumnail2.jpg")
+              h4.name Kristina
               p.role Photographer
-            li
+            li.col-lg-3
               a
-                img(ng-src="/images/thumnail3.jpg")
-              h3.name Kristina
+                img.img-responsive(ng-src="/images/thumnail3.jpg")
+              h4.name Kristina
               p.role Photographer
-            li
+            li.col-lg-3
               a
-                img(ng-src="/images/thumnail4.jpg")
-              h3.name Kristina
+                img.img-responsive(ng-src="/images/thumnail4.jpg")
+              h4.name Kristina
               p.role Photographer
-      a.left.carousel-control(href='#vipCarousel', role='button', data-slide='prev')
+        .item
+          ul.list-inline
+            li.col-lg-3
+              a
+                img.img-responsive(ng-src="/images/thumnail1.jpg")
+              h4.name Kristina
+              p.role Photographer  
+            li.col-lg-3
+              a
+                img.img-responsive(ng-src="/images/thumnail2.jpg")
+              h4.name Kristina
+              p.role Photographer
+            li.col-lg-3
+              a
+                img.img-responsive(ng-src="/images/thumnail3.jpg")
+              h4.name Kristina
+              p.role Photographer
+            li.col-lg-3
+              a
+                img.img-responsive(ng-src="/images/thumnail4.jpg")
+              h4.name Kristina
+              p.role Photographer
+      a.left.carousel-control(href='#carousel' role='button' data-slide='prev')
         span.glyphicon.glyphicon-chevron-left
-      a.right.carousel-control(href='#vipCarousel', role='button', data-slide='next')
+      a.right.carousel-control(href='#carousel' role='button' data-slide='next')
         span.glyphicon.glyphicon-chevron-right
 
