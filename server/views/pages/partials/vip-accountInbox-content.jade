@@ -1,0 +1,62 @@
+#vipAccountInboxContent
+  .menu
+    .col-lg-4
+      form(ng-model="vipInboxSort")
+        select
+          option(value="All Messages") All Messages
+          option(value="Invitations") Invitations
+          option(value="Sent") Sent
+    .col-lg-8
+      ul.list-inline.pull-right
+        li
+          a
+            |  Archive
+        li
+          a
+            | Trash
+        li
+          form(ng-model="vipInboxSort")
+            select.more
+              option(value="More") More
+        li
+          form
+            input(type="checkbox")
+
+  .clearfix
+  ul.messages
+    li.media
+      a.pull-left
+        img.media-object(ng-src='/images/thumnail1.jpg')
+      .media-body
+        h4.col-lg-4.media-heading
+          | Kristine
+        ul.info.pull-right.list-inline
+          li.date
+            | 23 July
+          li
+            form
+              input(type = "checkbox")
+        .clearfix
+        p.title
+          | Kristine
+      p.desc
+        | Hello how are you today
+    li.media
+      a.pull-left
+        img.media-object(ng-src='/images/thumnail1.jpg')
+      .media-body
+        h4.col-lg-4.media-heading
+          | Kristine
+        ul.info.pull-right.list-inline
+          li.date
+            | 23 July
+          li
+            form
+              input(type = "checkbox")
+        .clearfix
+        p.title
+          | Kristine
+      p.desc
+        | Hello how are you today
+  
+  

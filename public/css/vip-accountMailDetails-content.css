@@ -1,0 +1,95 @@
+#vipAccountMailDetailsContent {
+  margin-right: 98px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #000;
+  font-size: 13px;
+}
+#vipAccountMailDetailsContent .menu {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #d3d3d3;
+}
+#vipAccountMailDetailsContent .menu li {
+  padding-left: 40px;
+}
+#vipAccountMailDetailsContent .menu li a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+#vipAccountMailDetailsContent .menu li a.trash {
+  color: #d3d3d3;
+}
+#vipAccountMailDetailsContent .menu li:first-child {
+  padding-left: 0;
+}
+#vipAccountMailDetailsContent .menu li select {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  font-weight: 600;
+  color: #d3d3d3;
+}
+#vipAccountMailDetailsContent .media .media-body h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+#vipAccountMailDetailsContent .media .media-body .title {
+  font-size: 16px;
+}
+#vipAccountMailDetailsContent .media .timestamp {
+  font-weight: 600;
+  font-size: 14px;
+  color: #d3d3d3;
+}
+#vipAccountMailDetailsContent .messages li {
+  height: 57px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+  border-bottom: 2px solid #d3d3d3;
+  padding: 10px;
+  width: 70%;
+}
+#vipAccountMailDetailsContent .messages li.active {
+  height: auto;
+  background-color: transparent;
+  border-bottom: 0;
+}
+#vipAccountMailDetailsContent .messages li.active .desc {
+  font-weight: 500;
+  color: #646464;
+  background-color: #f6f6f6;
+  width: auto;
+}
+#vipAccountMailDetailsContent .messages li .timestamp {
+  color: #d3d3d3;
+  text-align: right;
+}
+#vipAccountMailDetailsContent .messages li h4 {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 15px;
+}
+#vipAccountMailDetailsContent .messages li .desc {
+  font-weight: 600;
+  color: #646464;
+}
+#vipAccountMailDetailsContent .messages li .reply {
+  text-align: right;
+  font-weigth: 600;
+  font-size: 15px;
+}
+#vipAccountMailDetailsContent textarea {
+  resize: none;
+  width: 70%;
+  height: 200px;
+  background-color: #f6f6f6;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 50px;
+  padding-left: 10px;
+}
+#vipAccountMailDetailsContent textarea:focus {
+  outline: none;
+  border: 1px solid #d3d3d3;
+}

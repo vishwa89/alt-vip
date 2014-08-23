@@ -1,0 +1,27 @@
+#vipAccountSidebar
+	ul.nav
+		li.active
+			a 
+				| Compose
+		li
+			a 
+				| messages
+		li
+			a 
+				| Invitations
+		li 
+			a 
+				| sent
+		li
+			a 
+				| archive
+		li
+			a 
+				| trash
+
+	form(ng-model="vipInboxSearch")
+		input.search(type = "text" placeholder="Search").col-lg-10
+		button(type="submit").addon.col-lg-2
+			span.glyphicon.glyphicon-search
+
+

@@ -1,0 +1,53 @@
+#vipAccountInboxContent {
+  margin-right: 98px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #000;
+  font-size: 13px;
+}
+#vipAccountInboxContent .menu {
+  padding-bottom: 40px;
+  border-bottom: 2px solid #d3d3d3;
+}
+#vipAccountInboxContent .menu li {
+  padding-left: 40px;
+}
+#vipAccountInboxContent .menu li a {
+  color: #d1d1d1;
+  font-weight: 600;
+  text-decoration: none;
+}
+#vipAccountInboxContent .menu li:first-child {
+  padding-left: 0;
+}
+#vipAccountInboxContent .menu select {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  font-weight: 600;
+  margin-top: 5px;
+  width: 98px;
+}
+#vipAccountInboxContent .menu select.more {
+  width: auto;
+  color: #d1d1d1;
+}
+#vipAccountInboxContent .messages {
+  margin-top: 20px;
+  font-weight: 600;
+}
+#vipAccountInboxContent .messages li.media {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #d1d1d1;
+}
+#vipAccountInboxContent .messages li.media a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+#vipAccountInboxContent .messages li.media h4 {
+  font-weight: 600;
+}
+#vipAccountInboxContent .messages li.media .desc {
+  color: #d1d1d1;
+}

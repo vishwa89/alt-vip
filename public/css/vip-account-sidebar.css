@@ -1,0 +1,53 @@
+#vipAccountSidebar {
+  padding-left: 18%;
+  padding-right: 10%;
+  border-right: 2px solid #d3d3d3;
+  height: 500px;
+}
+#vipAccountSidebar .nav {
+  margin-bottom: 100px;
+}
+#vipAccountSidebar .nav li {
+  padding-left: 15%;
+}
+#vipAccountSidebar .nav li.active {
+  border: 2px solid #d3d3d3;
+}
+#vipAccountSidebar .nav li a {
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#vipAccountSidebar .nav li a:hover {
+  background-color: transparent;
+}
+#vipAccountSidebar form input.search {
+  height: 40px;
+  border: 2px solid #d3d3d3;
+  border-right: 0;
+  outline: none;
+  color: #646464;
+  padding-left: 10px;
+}
+#vipAccountSidebar form input.search:focus {
+  border: 2px solid #d3d3d3;
+  border-right: 0;
+}
+#vipAccountSidebar form .addon {
+  height: 40px;
+}
+#vipAccountSidebar form button {
+  background-color: transparent;
+  border: 2px solid #d3d3d3;
+  border-left: 0;
+  outline: none;
+}
+#vipAccountSidebar form button:focus {
+  outline: none;
+  border: 2px solid #d3d3d3;
+  border-left: 0;
+}
+#vipAccountSidebar form button .glyphicon {
+  color: #d1d1d1;
+}

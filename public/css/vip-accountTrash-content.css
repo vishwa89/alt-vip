@@ -1,0 +1,49 @@
+#vipAccountTrashContent {
+  margin-right: 98px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #000;
+  font-size: 13px;
+}
+#vipAccountTrashContent .menu {
+  padding-bottom: 40px;
+  border-bottom: 2px solid #d3d3d3;
+}
+#vipAccountTrashContent .menu li {
+  padding-left: 40px;
+}
+#vipAccountTrashContent .menu li a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+#vipAccountTrashContent .menu li:first-child {
+  padding-left: 0;
+}
+#vipAccountTrashContent .menu select {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  font-weight: 600;
+  margin-top: 5px;
+  width: 98px;
+}
+#vipAccountTrashContent .messages {
+  margin-top: 20px;
+  font-weight: 600;
+}
+#vipAccountTrashContent .messages li.media {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #d1d1d1;
+}
+#vipAccountTrashContent .messages li.media a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+#vipAccountTrashContent .messages li.media h4 {
+  font-weight: 600;
+}
+#vipAccountTrashContent .messages li.media .desc {
+  color: #d1d1d1;
+}

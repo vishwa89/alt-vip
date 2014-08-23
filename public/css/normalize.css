@@ -396,3 +396,13 @@ li {
   padding-right: 0px;
   padding-left: 0px;
 }
+/*vip account title common for all pages below top bar*/
+.vip-inbox-title {
+  text-transform: uppercase;
+  margin-left: 60px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 2px solid #d3d3d3;
+  margin-right: 35px;
+}

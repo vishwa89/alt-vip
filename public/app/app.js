@@ -10,6 +10,11 @@ alt
 	.when('/vip-myConnections', { templateUrl: '/pages/vip-myConnections' })
 	.when('/vip-profileDetail', { templateUrl: '/pages/vip-profileDetail' })
 	.when('/vip-otherMemberProfile', { templateUrl: '/pages/vip-otherMemberProfile' })
+	.when('/vip-accountInbox', { templateUrl: '/pages/vip-accountInbox' })
+	.when('/vip-accountInvitation', { templateUrl: '/pages/vip-accountInvitation' })
+	.when('/vip-accountTrash', { templateUrl: '/pages/vip-accountTrash' })
+	.when('/vip-accountMailDetails', { templateUrl: '/pages/vip-accountMailDetails' })
+	.when('/vip-accountCompose', { templateUrl: '/pages/vip-accountCompose' })
 	.when('/brand/:chapter', { templateUrl: '/pages/brand-chapter' })
 	.when('/search', { templateUrl: '/pages/search' })
 	.when('/search/:section', { templateUrl: '/pages/search-section' });
