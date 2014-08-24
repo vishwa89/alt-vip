@@ -2,17 +2,21 @@
   ul.list-inline.menu
     li
       a
+        i.fa.fa-reply.fa-lg
         |  Reply
     li
       a.trash
+        i.fa.fa-trash-o.fa-lg
         | Trash
     li
       form(ng-model="vipInboxSort")
         select
           option(value="More") More
+
     li.pull-right
       a
-        | Next >
+        | Next
+        i.fa.fa-angle-right.fa-lg
   .clearfix
  
   .media
@@ -38,7 +42,8 @@
       p.desc.col-lg-12
         | hello hi hello
       p.reply.col-lg-12
-        | reply
+        i.fa.fa-reply
+        | Reply
     li
       h4.title.col-lg-4 
         | Su Liang
@@ -48,8 +53,9 @@
       p.desc.col-lg-12
         | hello hi hello
       p.reply.col-lg-12
-        | reply
-    li.active
+        i.fa.fa-reply
+        | Reply
+    li.show-full
       h4.title.col-lg-4 
         | Su Liang
       p.timestamp.col-lg-8
@@ -58,6 +64,7 @@
       p.desc.col-lg-12
         | hello hi hello
       p.reply.col-lg-12
+        i.fa.fa-reply
         | Reply
     
   

@@ -2,13 +2,16 @@
 	ul.nav
 		li.active
 			a 
+				i.fa.fa-paper-plane
 				| Compose
 		li
 			a 
 				| messages
+				span.number &nbsp(2)
 		li
 			a 
 				| Invitations
+				span.number &nbsp(2)
 		li 
 			a 
 				| sent
@@ -17,6 +20,7 @@
 				| archive
 		li
 			a 
+				
 				| trash
 
 	form(ng-model="vipInboxSearch")

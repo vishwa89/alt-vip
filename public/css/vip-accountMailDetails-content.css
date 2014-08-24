@@ -17,6 +17,18 @@
   font-weight: 600;
   text-decoration: none;
 }
+#vipAccountMailDetailsContent .menu li a i.fa {
+  margin-right: 3px;
+}
+#vipAccountMailDetailsContent .menu li a i.fa.fa-trash-o {
+  margin-right: 7px;
+  vertical-align: 0;
+}
+#vipAccountMailDetailsContent .menu li a i.fa.fa-angle-right {
+  margin-right: 0;
+  margin-left: 6px;
+  vertical-align: -10%;
+}
 #vipAccountMailDetailsContent .menu li a.trash {
   color: #d3d3d3;
 }
@@ -26,9 +38,12 @@
 #vipAccountMailDetailsContent .menu li select {
   outline: none;
   border: 0;
-  background-color: transparent;
   font-weight: 600;
   color: #d3d3d3;
+  width: 50px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: transparent url("/images/speechbubble.png") 110% 2px no-repeat;
 }
 #vipAccountMailDetailsContent .media .media-body h4 {
   font-size: 24px;
@@ -42,6 +57,9 @@
   font-size: 14px;
   color: #d3d3d3;
 }
+#vipAccountMailDetailsContent .messages {
+  margin-bottom: 20px;
+}
 #vipAccountMailDetailsContent .messages li {
   height: 57px;
   background-color: #f6f6f6;
@@ -50,12 +68,12 @@
   padding: 10px;
   width: 70%;
 }
-#vipAccountMailDetailsContent .messages li.active {
+#vipAccountMailDetailsContent .messages li.show-full {
   height: auto;
   background-color: transparent;
   border-bottom: 0;
 }
-#vipAccountMailDetailsContent .messages li.active .desc {
+#vipAccountMailDetailsContent .messages li.show-full .desc {
   font-weight: 500;
   color: #646464;
   background-color: #f6f6f6;
@@ -79,6 +97,9 @@
   text-align: right;
   font-weigth: 600;
   font-size: 15px;
+}
+#vipAccountMailDetailsContent .messages li .reply i {
+  margin-right: 5px;
 }
 #vipAccountMailDetailsContent textarea {
   resize: none;

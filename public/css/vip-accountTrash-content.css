@@ -13,9 +13,13 @@
   padding-left: 40px;
 }
 #vipAccountTrashContent .menu li a {
-  color: #000;
+  color: #d1d1d1;
   font-weight: 600;
   text-decoration: none;
+}
+#vipAccountTrashContent .menu li a i.fa {
+  margin-right: 3px;
+  vertical-align: 0;
 }
 #vipAccountTrashContent .menu li:first-child {
   padding-left: 0;
@@ -27,6 +31,9 @@
   font-weight: 600;
   margin-top: 5px;
   width: 98px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: transparent url("/images/speechbubble.png") 110% 2px no-repeat;
 }
 #vipAccountTrashContent .messages {
   margin-top: 20px;

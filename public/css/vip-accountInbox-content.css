@@ -17,6 +17,10 @@
   font-weight: 600;
   text-decoration: none;
 }
+#vipAccountInboxContent .menu li a i.fa {
+  margin-right: 3px;
+  vertical-align: 0;
+}
 #vipAccountInboxContent .menu li:first-child {
   padding-left: 0;
 }
@@ -27,9 +31,12 @@
   font-weight: 600;
   margin-top: 5px;
   width: 98px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: transparent url("/images/speechbubble.png") 110% 2px no-repeat;
 }
 #vipAccountInboxContent .menu select.more {
-  width: auto;
+  width: 50px;
   color: #d1d1d1;
 }
 #vipAccountInboxContent .messages {
