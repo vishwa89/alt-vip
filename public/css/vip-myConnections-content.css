@@ -1,0 +1,50 @@
+#vipMyConnectionsContent {
+  padding: 20px;
+  width: 890px;
+}
+#vipMyConnectionsContent .top-bar {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #d3d3d3;
+  height: 60px;
+}
+#vipMyConnectionsContent .top-bar select {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  font-weight: 600;
+  margin-top: 12px;
+  width: 98px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: transparent url("/images/speechbubble.png") 110% 2px no-repeat;
+}
+#vipMyConnectionsContent .top-bar form input.search {
+  height: 40px;
+  border: 2px solid #d3d3d3;
+  border-right: 0;
+  outline: none;
+  color: #646464;
+  padding-left: 10px;
+}
+#vipMyConnectionsContent .top-bar form input.search:focus {
+  border: 2px solid #d3d3d3;
+  border-right: 0;
+}
+#vipMyConnectionsContent .top-bar form .addon {
+  height: 40px;
+}
+#vipMyConnectionsContent .top-bar form button {
+  background-color: transparent;
+  border: 2px solid #d3d3d3;
+  border-left: 0;
+  outline: none;
+}
+#vipMyConnectionsContent .top-bar form button:focus {
+  outline: none;
+  border: 2px solid #d3d3d3;
+  border-left: 0;
+}
+#vipMyConnectionsContent .top-bar form button .glyphicon {
+  color: #d1d1d1;
+}

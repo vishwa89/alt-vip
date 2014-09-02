@@ -1,36 +1,69 @@
 #vipRecentNewsContent
-  .row
-    .col-lg-6
+  .top-bar
+    .col-lg-8
       .form(ng-model="vipSort")
-        select
-          option(value="All updates")
-          option(value="Most recent")
-          option(value="Most popular")
-    .col-lg-6
-      .form(ng-model="vipSearch")
-        .col-lg-2.pull-right
-          input.form-control(type='text' placeholder='Search')
+        select 
+          option(value="All updates") All updates
+          option(value="Most recent") Most Recent
+          option(value="Most popular") Most popular
+    .col-lg-4
+      form(ng-model="vipSearch")
+        .col-lg-8.pull-right
+          input.search(type='text' placeholder='Search').col-lg-10
+          button(type="submit").addon.col-lg-2
+            span.glyphicon.glyphicon-search
   
-  .row.lists
-    .col-lg-12
-      a.pull-left(href='#')
-        img.media-object(ng-src='/images/thumnail1.jpg')
-      .media-body
-        h4.media-heading
-          | Minne has a new connection
-        h4.media-duration.pull-right
+  .updates
+
+    .lists
+
+      .col-lg-3.media-info
+        .thumbnail
+          img.media-object(ng-src='/images/thumnail1.jpg')
+          .caption
+            h5.name
+              | Minne Hayes
+            p.role
+              | Photographer
+
+      .col-lg-3.media-info
+        .thumbnail
+          img.media-object(ng-src='/images/thumnail1.jpg')
+          .caption
+            h5.name
+              | Minne Hayes
+            p.role
+              | Photographer
+        span.connection 
+
+        p.duration
           | 1 day ago
-        .media
-          ul
-            li
-              a.pull-left(href='#')
-                img.media-object(ng-src='/images/thumnail1.jpg')
-              .media-body
-                h4.media-heading.name Kristine
-                p.role Photographer
-            li
-              a.pull-left(href='#')
-                img.media-object(ng-src='/images/thumnail1.jpg')
-              .media-body
-                h4.media-heading.name Kristine
-                p.role Photographer
+
+
+      .col-lg-3.media-info
+        .thumbnail
+          img.media-object(ng-src='/images/thumnail1.jpg')
+          .caption
+            h5.name
+              | Minne Hayes
+            p.role
+              | Photographer
+        .span
+      .col-lg-3.media-info
+        .thumbnail
+          img.media-object(ng-src='/images/thumnail1.jpg')
+          .caption
+            h5.name
+              | Minne Hayes
+            p.role
+              | Photographer
+        span.likes
+
+        p.duration
+          | 1 day ago
+
+    
+
+
+
+                

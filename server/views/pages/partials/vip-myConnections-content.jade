@@ -1,12 +1,14 @@
 #vipMyConnectionsContent
-  .row
-    .col-lg-6
+  .top-bar
+    .col-lg-8
       | My Connections
-    .col-lg-6
-      .form(ng-model="vipSearch")
-        .col-lg-2.pull-right
-          input.form-control(type='text', placeholder='Search')
-  .row.connections
+    .col-lg-4
+      form(ng-model="vipSearch")
+        .col-lg-8.pull-right
+          input.search(type='text' placeholder='Search').col-lg-10
+          button(type="submit").addon.col-lg-2
+            span.glyphicon.glyphicon-search
+  .connections
     .col-lg-4
       .media
         a.pull-left(href='#')

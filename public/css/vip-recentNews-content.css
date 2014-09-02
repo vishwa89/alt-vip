@@ -1,0 +1,89 @@
+#vipRecentNewsContent {
+  padding: 20px;
+  width: 890px;
+}
+#vipRecentNewsContent .top-bar {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #d3d3d3;
+  height: 60px;
+}
+#vipRecentNewsContent .top-bar select {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  font-weight: 600;
+  margin-top: 12px;
+  width: 98px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: transparent url("/images/speechbubble.png") 110% 2px no-repeat;
+}
+#vipRecentNewsContent .top-bar form input.search {
+  height: 40px;
+  border: 2px solid #d3d3d3;
+  border-right: 0;
+  outline: none;
+  color: #646464;
+  padding-left: 10px;
+}
+#vipRecentNewsContent .top-bar form input.search:focus {
+  border: 2px solid #d3d3d3;
+  border-right: 0;
+}
+#vipRecentNewsContent .top-bar form .addon {
+  height: 40px;
+}
+#vipRecentNewsContent .top-bar form button {
+  background-color: transparent;
+  border: 2px solid #d3d3d3;
+  border-left: 0;
+  outline: none;
+}
+#vipRecentNewsContent .top-bar form button:focus {
+  outline: none;
+  border: 2px solid #d3d3d3;
+  border-left: 0;
+}
+#vipRecentNewsContent .top-bar form button .glyphicon {
+  color: #d1d1d1;
+}
+#vipRecentNewsContent .updates .lists .media-info .thumbnail {
+  padding-top: 20px;
+  margin-right: 10px;
+  border: 0;
+  background-color: #d3d3d3;
+  position: relative;
+  z-index: 1;
+}
+#vipRecentNewsContent .updates .lists .media-info .caption {
+  text-align: center;
+}
+#vipRecentNewsContent .updates .lists .media-info .caption .name {
+  font-weight: 600;
+  font-size: 18px;
+}
+#vipRecentNewsContent .updates .lists .media-info .duration {
+  text-align: right;
+  color: #d3d3d3;
+  margin-right: 25px;
+}
+#vipRecentNewsContent .updates .lists .media-info .connection,
+#vipRecentNewsContent .updates .lists .media-info .likes {
+  background-image: url("/images/facebook.png");
+  height: 89px;
+  width: 94px;
+  position: absolute;
+  top: 20%;
+  left: -25%;
+  z-index: 1;
+}
+#vipRecentNewsContent .updates .lists .media-info:nth-child(2) .thumbnail {
+  margin-right: 25px;
+}
+#vipRecentNewsContent .updates .lists .media-info:last-child .thumbnail {
+  margin-right: 0;
+}
+#vipRecentNewsContent .updates .lists .media-info:last-child .duration {
+  margin-right: 0;
+}
