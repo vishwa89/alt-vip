@@ -1,0 +1,78 @@
+#vipConnectionsContent {
+  padding: 20px;
+  width: 890px;
+}
+#vipConnectionsContent .top-bar {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #d3d3d3;
+  height: 60px;
+}
+#vipConnectionsContent .top-bar .title h4 {
+  font-weight: 600;
+  margin-top: 2%;
+}
+#vipConnectionsContent .top-bar .title .other-profile {
+  display: none;
+}
+#vipConnectionsContent .top-bar form input.search {
+  height: 40px;
+  border: 2px solid #d3d3d3;
+  border-right: 0;
+  outline: none;
+  color: #646464;
+  padding-left: 10px;
+}
+#vipConnectionsContent .top-bar form input.search:focus {
+  border: 2px solid #d3d3d3;
+  border-right: 0;
+}
+#vipConnectionsContent .top-bar form .addon {
+  height: 40px;
+}
+#vipConnectionsContent .top-bar form button {
+  background-color: transparent;
+  border: 2px solid #d3d3d3;
+  border-left: 0;
+  outline: none;
+}
+#vipConnectionsContent .top-bar form button:focus {
+  outline: none;
+  border: 2px solid #d3d3d3;
+  border-left: 0;
+}
+#vipConnectionsContent .top-bar form button .glyphicon {
+  color: #d1d1d1;
+}
+#vipConnectionsContent .connections {
+  border-bottom: 2px solid #d3d3d3;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+#vipConnectionsContent .connections h4 {
+  font-weight: 600;
+}
+#vipConnectionsContent .pager li a {
+  background-color: transparent;
+  border: 0;
+  color: #000;
+  font-weight: 600;
+  padding-left: 0;
+  padding-right: 0;
+}
+#vipConnectionsContent .pager li a .left-arrow {
+  background: url("/images/left-arrow.jpg") 0% 4px no-repeat;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+#vipConnectionsContent .pager li a .right-arrow {
+  background: url("/images/right-arrow.jpg") 100% 4px no-repeat;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+#vipConnectionsContent .pager li.disabled a {
+  color: #d6d6d6;
+}

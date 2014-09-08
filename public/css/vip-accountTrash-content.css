@@ -13,13 +13,25 @@
   padding-left: 40px;
 }
 #vipAccountTrashContent .menu li a {
-  color: #d1d1d1;
+  color: #e2e2e2;
   font-weight: 600;
   text-decoration: none;
 }
-#vipAccountTrashContent .menu li a i.fa {
+#vipAccountTrashContent .menu li a .trash-img {
   margin-right: 3px;
-  vertical-align: 0;
+  display: inline-block;
+  height: 20px;
+  width: 105px;
+  padding-left: 25px;
+  background: url("/images/trash.jpg") 0% -7px no-repeat;
+}
+#vipAccountTrashContent .menu li a .recovery {
+  margin-right: 0;
+  display: inline-block;
+  height: 20px;
+  width: 85px;
+  padding-left: 30px;
+  background: url("/images/recovery.jpg") 0% -3px no-repeat;
 }
 #vipAccountTrashContent .menu li:first-child {
   padding-left: 0;
@@ -30,10 +42,12 @@
   background-color: transparent;
   font-weight: 600;
   margin-top: 5px;
-  width: 98px;
-  -moz-appearance: none;
+  width: 105px;
   -webkit-appearance: none;
-  background: transparent url("/images/speechbubble.png") 110% 2px no-repeat;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  background: transparent url("/images/select-img.jpg") 103% 1px no-repeat;
 }
 #vipAccountTrashContent .messages {
   margin-top: 20px;
@@ -41,7 +55,7 @@
 }
 #vipAccountTrashContent .messages li.media {
   padding-bottom: 10px;
-  border-bottom: 2px solid #d1d1d1;
+  border-bottom: 2px solid #d8d8d8;
 }
 #vipAccountTrashContent .messages li.media a {
   color: #000;
@@ -52,5 +66,5 @@
   font-weight: 600;
 }
 #vipAccountTrashContent .messages li.media .desc {
-  color: #d1d1d1;
+  color: #e2e2e2;
 }

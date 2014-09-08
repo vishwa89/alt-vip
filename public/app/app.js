@@ -15,7 +15,10 @@ alt
 	.when('/vip-accountTrash', { templateUrl: '/pages/vip-accountTrash' })
 	.when('/vip-accountMailDetails', { templateUrl: '/pages/vip-accountMailDetails' })
 	.when('/vip-accountCompose', { templateUrl: '/pages/vip-accountCompose' })
+	.when('/vip-accountProfileDetail', { templateUrl: '/pages/vip-accountProfileDetail' })
+	.when('/vip-profileNotConnected', { templateUrl: '/pages/vip-profileNotConnected' })
 	.when('/brand/:chapter', { templateUrl: '/pages/brand-chapter' })
+	.when('/vip-otherMemberConnections', { templateUrl: '/pages/vip-otherMemberConnections' })
 	.when('/search', { templateUrl: '/pages/search' })
 	.when('/search/:section', { templateUrl: '/pages/search-section' });
 });

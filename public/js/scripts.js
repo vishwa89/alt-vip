@@ -22,6 +22,7 @@ $(function(){
 });
 
 
+
 $(document).on('mouseover', '#vipSidebar li:nth-child(1) a img', function() {
 
   $("#vipSidebar li:nth-child(1) .name").show();

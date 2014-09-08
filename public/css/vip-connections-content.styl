@@ -1,0 +1,86 @@
+#vipConnectionsContent
+	padding:20px
+	width:890px
+
+	.top-bar
+		margin-bottom:20px
+		padding-bottom:20px
+		border-bottom:2px solid #d3d3d3
+		height:60px
+
+		.title
+			h4
+				font-weight:600
+				margin-top:2%
+
+			.other-profile
+				display:none
+
+		form
+			input
+				&.search
+					height:40px
+					border:2px solid #d3d3d3
+					border-right:0
+					outline:none
+					color:#646464
+					padding-left:10px
+
+					&:focus
+						border:2px solid #d3d3d3
+						border-right:0
+
+			.addon
+				height:40px
+
+			button
+				background-color:transparent
+				border:2px solid #d3d3d3
+				border-left:0
+				outline:none
+
+				&:focus
+					outline:none
+					border:2px solid #d3d3d3
+					border-left:0
+				
+				.glyphicon
+					color:#d1d1d1
+
+
+
+	.connections
+		border-bottom:2px solid #d3d3d3
+		padding-bottom:20px
+		margin-bottom:20px
+		overflow:auto
+		h4
+			font-weight:600
+
+
+	.pager
+		li
+			a
+				background-color:transparent
+				border:0
+				color:#000
+				font-weight:600
+				padding-left:0
+				padding-right:0
+
+
+				.left-arrow
+					background:url('/images/left-arrow.jpg') 0% 4px no-repeat
+					display:inline-block
+					height:15px
+					width:15px
+				.right-arrow
+					background:url('/images/right-arrow.jpg') 100% 4px no-repeat
+					display:inline-block
+					height:15px
+					width:15px
+
+			&.disabled
+				a
+					color:#d6d6d6
+

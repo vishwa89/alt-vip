@@ -8,13 +8,13 @@
 #vipAccountInvitationContent .menu {
   text-align: right;
   padding-bottom: 15px;
-  border-bottom: 2px solid #d3d3d3;
+  border-bottom: 2px solid #d8d8d8;
 }
 #vipAccountInvitationContent .menu li {
   padding-left: 40px;
 }
 #vipAccountInvitationContent .menu li a {
-  color: #d1d1d1;
+  color: #e2e2e2;
   font-weight: 600;
   text-decoration: none;
 }
@@ -27,7 +27,7 @@
 }
 #vipAccountInvitationContent .messages li.media {
   padding-bottom: 10px;
-  border-bottom: 2px solid #d1d1d1;
+  border-bottom: 2px solid #d8d8d8;
 }
 #vipAccountInvitationContent .messages li.media a {
   color: #000;
@@ -47,7 +47,7 @@
   width: 63px;
   height: 26px;
   border-radius: 2px;
-  background-color: #d1d1d1;
+  background-color: #e6e6e6;
   font-weight: 800;
   border: 0;
 }

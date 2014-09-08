@@ -1,21 +1,21 @@
-#vipMyConnectionsContent {
+#vipConnectionsContent {
   padding: 20px;
   width: 890px;
 }
-#vipMyConnectionsContent .top-bar {
+#vipConnectionsContent .top-bar {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 2px solid #d3d3d3;
   height: 60px;
 }
-#vipMyConnectionsContent .top-bar .title h4 {
+#vipConnectionsContent .top-bar .title h4 {
   font-weight: 600;
   margin-top: 2%;
 }
-#vipMyConnectionsContent .top-bar .title .other-profile {
+#vipConnectionsContent .top-bar .title .other-profile {
   display: none;
 }
-#vipMyConnectionsContent .top-bar select {
+#vipConnectionsContent .top-bar select {
   outline: none;
   border: 0;
   background-color: transparent;
@@ -26,7 +26,7 @@
   -webkit-appearance: none;
   background: transparent url("/images/speechbubble.png") 110% 2px no-repeat;
 }
-#vipMyConnectionsContent .top-bar form input.search {
+#vipConnectionsContent .top-bar form input.search {
   height: 40px;
   border: 2px solid #d3d3d3;
   border-right: 0;
@@ -34,37 +34,37 @@
   color: #646464;
   padding-left: 10px;
 }
-#vipMyConnectionsContent .top-bar form input.search:focus {
+#vipConnectionsContent .top-bar form input.search:focus {
   border: 2px solid #d3d3d3;
   border-right: 0;
 }
-#vipMyConnectionsContent .top-bar form .addon {
+#vipConnectionsContent .top-bar form .addon {
   height: 40px;
 }
-#vipMyConnectionsContent .top-bar form button {
+#vipConnectionsContent .top-bar form button {
   background-color: transparent;
   border: 2px solid #d3d3d3;
   border-left: 0;
   outline: none;
 }
-#vipMyConnectionsContent .top-bar form button:focus {
+#vipConnectionsContent .top-bar form button:focus {
   outline: none;
   border: 2px solid #d3d3d3;
   border-left: 0;
 }
-#vipMyConnectionsContent .top-bar form button .glyphicon {
+#vipConnectionsContent .top-bar form button .glyphicon {
   color: #d1d1d1;
 }
-#vipMyConnectionsContent .connections {
+#vipConnectionsContent .connections {
   border-bottom: 2px solid #d3d3d3;
   padding-bottom: 20px;
   margin-bottom: 20px;
   overflow: auto;
 }
-#vipMyConnectionsContent .connections h4 {
+#vipConnectionsContent .connections h4 {
   font-weight: 600;
 }
-#vipMyConnectionsContent .pager li>a {
+#vipConnectionsContent .pager li>a {
   background-color: transparent;
   border: 0;
 }

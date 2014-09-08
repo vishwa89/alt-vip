@@ -1,7 +1,7 @@
 #vipAccountSidebar {
   padding-left: 18%;
   padding-right: 10%;
-  border-right: 2px solid #d3d3d3;
+  border-right: 2px solid #e3e3e3;
   height: 500px;
 }
 #vipAccountSidebar .nav {
@@ -9,19 +9,28 @@
 }
 #vipAccountSidebar .nav li {
   padding-left: 15%;
+  height: 35px;
+  border-radius: 3px;
+  margin-bottom: 10px;
 }
 #vipAccountSidebar .nav li.active {
-  border: 2px solid #d3d3d3;
+  border: 2px solid #e3e3e3;
 }
 #vipAccountSidebar .nav li a {
   color: #000;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
+  padding-top: 7px;
+  padding-bottom: 0;
 }
-#vipAccountSidebar .nav li a i.fa-paper-plane {
+#vipAccountSidebar .nav li a .compose-icon {
   margin-left: -35px;
-  font-size: 17px;
+  background: url("/images/compose-icon.jpg") 40% 0px no-repeat;
+  display: inline-block;
+  padding-left: 35px;
+  height: 20px;
+  width: 19px;
   margin-right: 15px;
 }
 #vipAccountSidebar .nav li a:hover {
@@ -29,14 +38,14 @@
 }
 #vipAccountSidebar form input.search {
   height: 40px;
-  border: 2px solid #d3d3d3;
+  border: 2px solid #e3e3e3;
   border-right: 0;
   outline: none;
   color: #646464;
   padding-left: 10px;
 }
 #vipAccountSidebar form input.search:focus {
-  border: 2px solid #d3d3d3;
+  border: 2px solid #e3e3e3;
   border-right: 0;
 }
 #vipAccountSidebar form .addon {
@@ -44,13 +53,13 @@
 }
 #vipAccountSidebar form button {
   background-color: transparent;
-  border: 2px solid #d3d3d3;
+  border: 2px solid #e3e3e3;
   border-left: 0;
   outline: none;
 }
 #vipAccountSidebar form button:focus {
   outline: none;
-  border: 2px solid #d3d3d3;
+  border: 2px solid #e3e3e3;
   border-left: 0;
 }
 #vipAccountSidebar form button .glyphicon {

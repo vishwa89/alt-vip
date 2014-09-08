@@ -7,19 +7,31 @@
 }
 #vipAccountInboxContent .menu {
   padding-bottom: 40px;
-  border-bottom: 2px solid #d3d3d3;
+  border-bottom: 2px solid #d8d8d8;
 }
 #vipAccountInboxContent .menu li {
   padding-left: 40px;
 }
 #vipAccountInboxContent .menu li a {
-  color: #d1d1d1;
+  color: #e2e2e2;
   font-weight: 600;
   text-decoration: none;
 }
-#vipAccountInboxContent .menu li a i.fa {
+#vipAccountInboxContent .menu li a .trash-img {
   margin-right: 3px;
-  vertical-align: 0;
+  display: inline-block;
+  height: 20px;
+  width: 60px;
+  padding-left: 25px;
+  background: url("/images/trash.jpg") 0% -7px no-repeat;
+}
+#vipAccountInboxContent .menu li a .archive {
+  margin-right: 3px;
+  display: inline-block;
+  height: 20px;
+  width: 60px;
+  padding-left: 25px;
+  background: url("/images/archive.jpg") 0% -3px no-repeat;
 }
 #vipAccountInboxContent .menu li:first-child {
   padding-left: 0;
@@ -30,14 +42,17 @@
   background-color: transparent;
   font-weight: 600;
   margin-top: 5px;
-  width: 98px;
-  -moz-appearance: none;
+  width: 103px;
   -webkit-appearance: none;
-  background: transparent url("/images/speechbubble.png") 110% 2px no-repeat;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  background: transparent url("/images/select-img.jpg") 103% 1px no-repeat;
 }
 #vipAccountInboxContent .menu select.more {
   width: 50px;
-  color: #d1d1d1;
+  color: #e2e2e2;
+  background-position: 105% 1px;
 }
 #vipAccountInboxContent .messages {
   margin-top: 20px;
@@ -45,7 +60,7 @@
 }
 #vipAccountInboxContent .messages li.media {
   padding-bottom: 10px;
-  border-bottom: 2px solid #d1d1d1;
+  border-bottom: 2px solid #d8d8d8;
 }
 #vipAccountInboxContent .messages li.media a {
   color: #000;
@@ -56,5 +71,5 @@
   font-weight: 600;
 }
 #vipAccountInboxContent .messages li.media .desc {
-  color: #d1d1d1;
+  color: #e2e2e2;
 }

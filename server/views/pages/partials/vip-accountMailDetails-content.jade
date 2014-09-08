@@ -2,12 +2,12 @@
   ul.list-inline.menu
     li
       a
-        i.fa.fa-reply.fa-lg
-        |  Reply
+        span.reply
+          | Reply
     li
       a.trash
-        i.fa.fa-trash-o.fa-lg
-        | Trash
+        span.trash-img
+          | Trash
     li
       form(ng-model="vipInboxSort")
         select
@@ -42,7 +42,6 @@
       p.desc.col-lg-12
         | hello hi hello
       p.reply.col-lg-12
-        i.fa.fa-reply
         | Reply
     li
       h4.title.col-lg-4 
@@ -53,7 +52,6 @@
       p.desc.col-lg-12
         | hello hi hello
       p.reply.col-lg-12
-        i.fa.fa-reply
         | Reply
     li.show-full
       h4.title.col-lg-4 
@@ -64,7 +62,6 @@
       p.desc.col-lg-12
         | hello hi hello
       p.reply.col-lg-12
-        i.fa.fa-reply
         | Reply
     
   

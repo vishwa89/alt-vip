@@ -1,14 +1,15 @@
 #vipRecentNewsContent
   .top-bar
-    .col-lg-8
-      .form(ng-model="vipSort")
+    .col-lg-7
+      form(ng-model="vipSort")
         select 
           option(value="All updates") All updates
           option(value="Most recent") Most Recent
           option(value="Most popular") Most popular
-    .col-lg-4
+    .col-lg-5
+      h5.col-lg-5.other-profile  Back to Recent News
       form(ng-model="vipSearch")
-        .col-lg-8.pull-right
+        .col-lg-7.pull-right
           input.search(type='text' placeholder='Search').col-lg-10
           button(type="submit").addon.col-lg-2
             span.glyphicon.glyphicon-search
@@ -61,6 +62,13 @@
 
         p.duration
           | 1 day ago
+
+  .not-connected
+    h5
+      | Sorry you can't see more recent news until the user agree to connect with you.
+    .btn-group
+      button(type="submit").connect Invite to connect
+      button Back to recent News
 
     
 

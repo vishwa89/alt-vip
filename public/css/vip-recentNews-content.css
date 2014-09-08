@@ -14,10 +14,18 @@
   background-color: transparent;
   font-weight: 600;
   margin-top: 12px;
-  width: 98px;
-  -moz-appearance: none;
+  width: 100px;
   -webkit-appearance: none;
-  background: transparent url("/images/speechbubble.png") 110% 2px no-repeat;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  font-size: 13px;
+  background: transparent url("/images/select-img.jpg") 94% 1px no-repeat;
+}
+#vipRecentNewsContent .top-bar h5.other-profile {
+  margin-top: 14px;
+  color: #888;
+  display: none;
 }
 #vipRecentNewsContent .top-bar form input.search {
   height: 40px;
@@ -52,7 +60,7 @@
   padding-top: 20px;
   margin-right: 10px;
   border: 0;
-  background-color: #d3d3d3;
+  background-color: #e2e2e2;
   position: relative;
   z-index: 1;
 }
@@ -86,4 +94,28 @@
 }
 #vipRecentNewsContent .updates .lists .media-info:last-child .duration {
   margin-right: 0;
+}
+#vipRecentNewsContent .not-connected {
+  display: none;
+}
+#vipRecentNewsContent .not-connected h5 {
+  color: #888;
+}
+#vipRecentNewsContent .not-connected .btn-group button {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #646464;
+  font-size: 12px;
+  padding: 2px;
+  text-align: center;
+  width: 130px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #d1d1d1;
+  font-weight: 800;
+  border: 0;
+}
+#vipRecentNewsContent .not-connected .btn-group button.connect {
+  background-color: #646464;
+  color: #fff;
 }

@@ -1,11 +1,14 @@
 #vipTop {
-  height: 70px;
+  height: 77px;
   background-color: #000;
   font-size: 15px;
   color: #929292;
 }
 #vipTop ul {
-  margin-top: 7%;
+  margin-top: 55px;
+}
+#vipTop ul.dropdown-menu {
+  margin-top: 0;
 }
 #vipTop ul.list-inline {
   margin-left: 7%;
@@ -43,7 +46,7 @@
   width: 90px;
 }
 #vipTop .welcome {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 2%;
 }
 #vipTop .welcome i {

@@ -7,19 +7,32 @@
 
 	.menu
 		padding-bottom:40px
-		border-bottom:2px solid #d3d3d3
+		border-bottom:2px solid #d8d8d8
 
 		li
 			padding-left:40px
 			
 			a
-				color:#d1d1d1
+				color:#e2e2e2
 				font-weight:600
 				text-decoration:none
 
-				i.fa
+				.trash-img
 					margin-right:3px
-					vertical-align:0
+					display:inline-block	
+					height:20px
+					width:60px
+					padding-left:25px
+					background:url('/images/trash.jpg') 0% -7px no-repeat
+
+				.archive
+					margin-right:3px
+					display:inline-block	
+					height:20px
+					width:60px
+					padding-left:25px
+					background:url('/images/archive.jpg') 0% -3px no-repeat
+
 
 			
 
@@ -32,22 +45,26 @@
 			background-color:transparent
 			font-weight:600
 			margin-top:5px
-			width:98px
-			-moz-appearance: none
+			width:103px
 			-webkit-appearance: none
-			background: transparent url("/images/speechbubble.png") 110% 2px no-repeat
+			-moz-appearance: none
+			text-indent: 1px
+			text-overflow: ''
+			background: transparent url("/images/select-img.jpg") 103% 1px no-repeat
 
 			&.more
 				width:50px
-				color:#d1d1d1
+				color:#e2e2e2
+				background-position:105% 1px;
 
 	.messages
 		margin-top:20px
 		font-weight:600
 
+
 		li.media
 			padding-bottom:10px
-			border-bottom:2px solid #d1d1d1
+			border-bottom:2px solid #d8d8d8
 			
 			a
 
@@ -59,4 +76,4 @@
 				font-weight:600
 
 			.desc
-				color:#d1d1d1
+				color:#e2e2e2

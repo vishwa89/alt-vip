@@ -1,0 +1,47 @@
+#vipConnectionsContent
+  .top-bar
+    .col-lg-8.title
+      h4.user-profile My Connections
+      h4.other-profile Kristina Armstrong's connections
+
+    .col-lg-4
+      form(ng-model="vipSearch")
+        .col-lg-8.pull-right
+          input.search(type='text' placeholder='Search').col-lg-10
+          button(type="submit").addon.col-lg-2
+            span.glyphicon.glyphicon-search
+  .connections
+    .col-lg-4
+      .media
+        a.pull-left(href='#')
+          img.media-object(ng-src='/images/thumnail1.jpg')
+        .media-body
+          h4.media-heading Media heading
+          | Kristine
+    .col-lg-4
+      .media
+        a.pull-left(href='#')
+          img.media-object(ng-src='/images/thumnail1.jpg')
+        .media-body
+          h4.media-heading Media heading
+          | Kristine
+
+    .col-lg-4
+      .media
+        a.pull-left(href='#')
+          img.media-object(ng-src='/images/thumnail1.jpg')
+        .media-body
+          h4.media-heading Media heading
+          | Kristine
+  ul.pager
+    li.previous.disabled
+      a(href='#') 
+        span.left-arrow
+        | Previous
+    li.next
+      a(href='#') 
+        | Next 
+        span.right-arrow
+
+
+

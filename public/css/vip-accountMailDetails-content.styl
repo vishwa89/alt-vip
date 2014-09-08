@@ -7,33 +7,47 @@
 
 	.menu
 		padding-bottom:15px
-		border-bottom:2px solid #d3d3d3
+		border-bottom:2px solid #d8d8d8
 
 		li
 			padding-left:40px
+			padding-right:35px
 			
 			a
 				color:#000
 				font-weight:600
 				text-decoration:none
 
-				i.fa
+				.trash-img
 					margin-right:3px
+					display:inline-block	
+					height:20px
+					width:22px
+					padding-left:25px
+					background:url('/images/trash.jpg') 40% -7px no-repeat
 
-					&.fa-trash-o
-						margin-right:7px
-						vertical-align:0
+				.reply
+					margin-right:3px
+					display:inline-block	
+					height:20px
+					width:22px
+					padding-left:25px
+					background:url('/images/reply.jpg') 80% -4px no-repeat
+
+				
 					
-					&.fa-angle-right
-						margin-right:0
-						margin-left:6px
-						vertical-align:-10%
+				.fa-angle-right
+					margin-right:0
+					margin-left:6px
+					vertical-align:-10%
 
 				&.trash
 					color:#d3d3d3
 
 			&:first-child
 				padding-left:0
+			&:last-child
+				padding-right:0
 
 			select
 				outline:none
@@ -41,9 +55,11 @@
 				font-weight:600
 				color:#d3d3d3
 				width:50px
-				-moz-appearance: none
 				-webkit-appearance: none
-				background: transparent url("/images/speechbubble.png") 110% 2px no-repeat
+				-moz-appearance: none
+				text-indent: 1px
+				text-overflow: ''
+				background: transparent url("/images/select-img.jpg") 107% 1px no-repeat
 
 	.media
 		.media-body
@@ -64,7 +80,7 @@
 			height:57px
 			background-color:#f6f6f6
 			overflow:hidden
-			border-bottom:2px solid #d3d3d3
+			border-bottom:2px solid #d8d8d8
 			padding:10px
 			width:70%
 			
@@ -76,8 +92,7 @@
 				.desc
 					font-weight:500
 					color:#646464
-					background-color:#f6f6f6
-					width:auto
+					width:100%
 
 			.timestamp
 				color:#d3d3d3
@@ -93,23 +108,31 @@
 				font-weight:600
 				color:#646464
 
-			.reply
-				text-align:right
-				font-weigth:600
-				font-size:15px
+			
+				
+				
 
-				i
-					margin-right:5px
+			.reply
+					font-weigth:600
+					font-size:15px
+					margin-right:3px
+					text-align:right
+					display:inline-block	
+					height:20px
+					width:100%
+					padding-left:25px
+					background:url('/images/reply.jpg') 93% -2px no-repeat
+
 
 	textarea
 		resize:none
 		width:70%
 		height:200px
 		background-color:#f6f6f6
-		border:1px solid #d3d3d3
+		border:1px solid #d8d8d8
 		margin-bottom:50px
 		padding-left:10px
 
 		&:focus
 			outline:none
-			border:1px solid #d3d3d3
+			border:1px solid #d8d8d8
