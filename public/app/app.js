@@ -14,6 +14,7 @@ alt
 	.when('/vip-accountInvitation', { templateUrl: '/pages/vip-accountInvitation' })
 	.when('/vip-accountTrash', { templateUrl: '/pages/vip-accountTrash' })
 	.when('/vip-accountMailDetails', { templateUrl: '/pages/vip-accountMailDetails' })
+	.when('/vip-accountMailDetails2', { templateUrl: '/pages/vip-accountMailDetails2' })
 	.when('/vip-accountCompose', { templateUrl: '/pages/vip-accountCompose' })
 	.when('/vip-accountProfileDetail', { templateUrl: '/pages/vip-accountProfileDetail' })
 	.when('/vip-profileNotConnected', { templateUrl: '/pages/vip-profileNotConnected' })

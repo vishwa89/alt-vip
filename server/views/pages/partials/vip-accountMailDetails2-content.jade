@@ -1,0 +1,43 @@
+#vipAccountMailDetailsContent
+  ul.list-inline.menu
+    li
+      a
+        span.reply
+          | Reply
+    li
+      a.trash
+        span.trash-img
+          | Trash
+    li
+      form(ng-model="vipInboxSort")
+        select
+          option(value="More") More
+
+    li.pull-right
+      a
+        | Next
+        i.fa.fa-angle-right.fa-lg
+  .clearfix
+ 
+  .media
+    a.pull-left
+      img.media-object(ng-src='/images/thumnail1.jpg')
+    .media-body
+      h4.col-lg-4.media-heading
+        | Kristine
+      .clearfix
+      p.title
+        | Kristine
+    p.timestamp
+      | 23.july.2014 9:10 am
+
+
+  .mail-img
+    img(ng-src='/images/img1.jpg') 
+
+
+
+
+   
+  
+  

@@ -118,6 +118,10 @@
   padding-left: 25px;
   background: url("/images/reply.jpg") 93% -2px no-repeat;
 }
+#vipAccountMailDetailsContent .mail-img img {
+  height: 320px;
+  margin-bottom: 45px;
+}
 #vipAccountMailDetailsContent textarea {
   resize: none;
   width: 70%;
